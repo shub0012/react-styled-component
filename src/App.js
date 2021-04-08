@@ -1,11 +1,13 @@
 import React from 'react'
+import { BrowserRouter as Router } from 'react-router-dom'
 import './App.css'
+import Home from './pages'
 
 const App = () => {
   return (
-    <div className='App'>
-      <h2>Setting us src folder</h2>
-    </div>
+    <Router className='App'>
+      <Home />
+    </Router>
   )
 }
 
