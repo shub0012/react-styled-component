@@ -1,0 +1,16 @@
+export const homeObjOne = {
+    id: 'about',
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
+    topLine: 'premium Bank',
+    headLine: 'Unlimted Transaction with zero feees',
+    description: 'Get access to our exclusive app that allows you to send and receive Unlimted transcations without getting charged any fees',
+    buttonLabel: 'Get Started',
+    imgStart: false,
+    mainImg: process.env.PUBLIC_URL + '/images/car.svg',
+    alt: 'car',
+    dark: true,
+    primary: true,
+    darkText: false,
+}
