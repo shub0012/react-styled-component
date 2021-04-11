@@ -34,9 +34,9 @@ export const homeObjTwo = {
 
 export const homeObjThree = {
     id: 'signup',
-    lightBg: true,
-    lightText: false,
-    lightTextDesc: false,
+    lightBg: false,
+    lightText: true,
+    lightTextDesc: true,
     topLine: 'Join our Team',
     headLine: 'Signup Now to get your bonus credits',
     description: 'Every new user will get $250 credits in their account to use them in their next purchase. Signup NOW to get yours.',
@@ -44,7 +44,7 @@ export const homeObjThree = {
     imgStart: false,
     mainImg: process.env.PUBLIC_URL + '/images/form.svg',
     alt: 'form',
-    dark: false,
-    primary: false,
-    darkText: true,
+    dark: true,
+    primary: true,
+    darkText: false,
 }
