@@ -1,7 +1,6 @@
 import React from 'react'
 import { Button } from '../Button/ButtonElement'
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrapper, ImgWrapper, Img } from './InfoElements'
-// import carSvg from '../../images/car.svg'
 
 const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headLine, darkText, description, buttonLabel, mainImg, alt, primary, dark, dark2}) => {
     return (
