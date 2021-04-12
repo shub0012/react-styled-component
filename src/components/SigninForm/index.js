@@ -5,7 +5,7 @@ const SigninForm = () => {
         <SigninWrapper>
         <SigninContainer>
             <SigninLogo />
-            <SigninTitle to='/'>Dollo</SigninTitle>
+            <SigninTitle to='/'>Dolla</SigninTitle>
             <SigninSubtitle>Virtual Bank</SigninSubtitle>
             <SigninFields>
                 <UserName>
