@@ -14,7 +14,7 @@ export const SidebarContainer = styled.aside`
     top: 0;
     left: 0;
     transition: all 0.3s ease-in-out;
-    opacity: ${({ isOpen}) => (isOpen ? '100%' : '0')};
+    opacity: ${({ isOpen }) => (isOpen ? '100%' : '0')};
     top: ${({isOpen}) => (isOpen ? '0' : '-100%')};
 `
 
@@ -55,7 +55,6 @@ export const SidebarLink = styled(LinkS)`
     text-decoration: none;
     list-style: none;
     transition: all 0.2s ease-in-out;
-    text-decoration: none;
     color: #ffffff;
     cursor: pointer;
 

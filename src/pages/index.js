@@ -8,7 +8,7 @@ import Services from '../components/Services'
 import Sidebar from '../components/Sidebar'
 
 const Home = () => {
-    const [isOpen, setIsOpen] =useState(false)
+    const [isOpen, setIsOpen] = useState(false)
 
     const toggle = () => {
         setIsOpen(!isOpen)
